@@ -1,0 +1,41 @@
+{
+  "name": "@itavy/utilities",
+  "version": "0.0.1",
+  "description": "Itavy common utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "test:check-style": "./node_modules/.bin/eslint index.js lib/* \"test/**/*.js\"",
+    "pretest": "npm run test:check-style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itavy/utilities.git"
+  },
+  "keywords": [
+    "utilities",
+    "library",
+    "verror",
+    "text-encoding"
+  ],
+  "author": "Octavian Ionescu <itavyg@gmail.com> (https://github.com/itavy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itavy/utilities/issues"
+  },
+  "homepage": "https://github.com/itavy/utilities#readme",
+  "devDependencies": {
+    "@itavy/test-utilities": "^1.0.0",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "text-encoding": "^0.6.4",
+    "verror": "^1.9.0"
+  }
+}
