@@ -20,6 +20,8 @@ it('Utilities should have expected definition', (done) => {
     'validateConstructorDependencies',
     'stringToUint8Array',
     'stringFromUint8Array',
+    'serializeJSON',
+    'unserializeJSON',
   ].map(el => expect(utils.Utilities).to.have.property(el));
   done();
 });

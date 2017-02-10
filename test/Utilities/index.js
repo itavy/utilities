@@ -4,4 +4,5 @@ describe('Export', () => require('./Export.test')); // eslint-disable-line globa
 describe('ObjectUtilities', () => require('./ObjectUtilities.test')); // eslint-disable-line global-require
 describe('Errors', () => require('./Errors.test')); // eslint-disable-line global-require
 describe('StringUint8Array', () => require('./StringUint8Array.test')); // eslint-disable-line global-require
+describe('JSON Serialization', () => require('./JSONSerialization.test')); // eslint-disable-line global-require
 describe('ValidateConstructorDependencies', () => require('./ValidateConstructorDependencies.test')); // eslint-disable-line global-require
