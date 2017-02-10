@@ -12,7 +12,7 @@
   },
   "pre-commit": [
     "coverage",
-    "coverage:check",
+    "coverage:check"
   ],
   "repository": {
     "type": "git",
