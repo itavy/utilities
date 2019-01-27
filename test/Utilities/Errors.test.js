@@ -1,10 +1,10 @@
 'use strict';
 
-const expect = require('@itavy/test-utilities').getExpect();
-const utils = require('../../lib');
-
-
+const { expect } = require('@itavy/test-utilities');
 const verror = require('verror');
+
+
+const utils = require('../../lib');
 
 it('Should return an instance of Werror', (done) => {
   const uErr = utils.Utilities.createError({

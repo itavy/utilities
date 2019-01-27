@@ -1,6 +1,6 @@
 'use strict';
 
-const expect = require('@itavy/test-utilities').getExpect();
+const { expect } = require('@itavy/test-utilities');
 const utils = require('../../lib');
 
 it('Should return a di for the rules provided', (done) => {

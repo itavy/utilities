@@ -1,6 +1,6 @@
 'use strict';
 
-const expect = require('@itavy/test-utilities').getExpect();
+const { expect } = require('@itavy/test-utilities');
 const utils = require('../../lib');
 
 it('Should return true for existing property', (done) => {
